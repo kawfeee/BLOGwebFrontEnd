@@ -1,0 +1,161 @@
+* {
+    text-decoration: none;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+body{
+    
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+.navbar {
+    background: #FDDB3A;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 40px;
+    color: #41444B;
+}
+
+.nav-li{
+    list-style: none;
+    display:inline-block;
+}
+
+.nav-li a:hover{
+    font-size: 30px;
+}
+
+.nav-li a{
+    color: #41444B;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+button{
+    background-color: #41444B;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+}
+
+button a{
+    color: #FDDB3A;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+/* landing page -------------------------- */
+.heading1{
+    background-color: rgb(255, 255, 255);
+    padding: 6px;
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 40px;
+    /* margin-top: px; */
+}
+.heading2{
+    /* padding: 0px; */
+    text-align: center;
+    color: #000000;
+    font-size: 3rem;
+    /* text-shadow: 2px 2px 3px #41444B; */
+    /* margin-top: 1px; */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 2px solid red; */
+    width: 1000px;
+    margin-left: 258px;
+
+}
+.card{
+    background-color: #ffffff;
+    width: 300px;
+    height: 380px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px black;
+    margin: 14px;
+}
+.card p{
+    text-align: center;
+}
+.cardImage{
+    height: 170px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    /* background-size: cover; */
+    /* background-size: 10px 10px; */
+}
+
+.cardImage img{
+    /* background-size: cover;
+    background-size: 50px 90px; */
+    width: 88%; 
+    height: 190px; 
+    /* object-fit: cover;   */
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    
+    /* justify-content: center; */
+    margin-left: 18px;
+}
+ 
+
+.card h2{
+    padding: 8px;
+    /* font-size: 1.5rem; */
+    text-align: center;
+}
+
+
+.card a{
+    height: 20px;
+    font-size: 1.2rem;
+    background-color: #FDDB3A;
+    color: rgb(0, 0, 0);
+    padding: 12px 12px;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    /* margin: 20px 50px; */
+}
+.card a:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.card:hover{
+    background-color: #fdeb92;
+    transform: scale(1.04);
+    transition: all 0.2s ease;
+}
+
+.test{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.6rem;
+}
+
+
